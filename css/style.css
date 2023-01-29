@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2c3e50;;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    padding: 0.5em;
+    margin: 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+#login-form {
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    background-color: #45617c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#signup-form {
+    width: 450px;
+    padding: 20px;
+    background-color: #45617c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.form-container {
+    margin: 16px;
+}
+
+.form-container h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.address-container {
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="button"] {
+    width: 100%;
+    background-color: #2980b9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #799fb6;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #3498db;
+    border: 2px solid #8cb6d1;
+}
+
+input[type="button"]:active {
+    background-color: #2d89c6;
+    border: 2px solid #80a8c1;
+}
+
+label {
+    color: white;
+}
+
+#caps-alert {
+    display: none;
+    color: #dca0a0;
+    font-size: 0.8em;
+}
+
+#caps-alert.visible {
+    display: block;
+}
+
+#sign-up-error {
+    font-size: 0.8em;
+    color: #dca0a0;
+}
